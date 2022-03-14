@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "BombPartyExtension",
+	"version": "1",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://jklm.fun/*"
+			],
+			"js": [
+				"words.js",
+				"index.js"
+			]
+		}
+	]
+}
